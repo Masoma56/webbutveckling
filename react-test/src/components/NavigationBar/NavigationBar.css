@@ -1,0 +1,14 @@
+.Navigationbar-wrapper {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: olivedrab;
+}
+
+.logo {
+    width: 100px;
+}
+
+.signIn {
+    grid-column: 9/10;
+    align-self: center;
+}
